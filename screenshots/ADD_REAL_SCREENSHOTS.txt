@@ -1,0 +1,1 @@
+Add genuine screenshots of your Postman responses and SQLite CLI database view here. See the README for the required filenames. Do not submit fabricated screenshots.

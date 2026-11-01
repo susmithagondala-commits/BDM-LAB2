@@ -1,0 +1,70 @@
+{
+  "info": {
+    "name": "Lab 2 - SQLite CRUD Routes",
+    "_postman_id": "252u1r6081-lab02",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000"
+    }
+  ],
+  "item": [
+    {
+      "name": "GET - All books",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/books/"
+      }
+    },
+    {
+      "name": "GET - Book by ID",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/books/1/"
+      }
+    },
+    {
+      "name": "POST - Add book",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Clean Code\",\n  \"author\": \"Robert C. Martin\",\n  \"price\": 600,\n  \"pages\": 464\n}"
+        },
+        "url": "{{baseUrl}}/books/"
+      }
+    },
+    {
+      "name": "PUT - Update book",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"The Alchemist - Updated\",\n  \"author\": \"Paulo Coelho\",\n  \"price\": 400,\n  \"pages\": 210\n}"
+        },
+        "url": "{{baseUrl}}/books/1/"
+      }
+    },
+    {
+      "name": "DELETE - Remove book",
+      "request": {
+        "method": "DELETE",
+        "url": "{{baseUrl}}/books/1/"
+      }
+    }
+  ]
+}
