@@ -122,11 +122,22 @@ Use an ID that exists in the database for GET, PUT, and DELETE. After POST, PUT,
 The `screenshots/` folder is provided for genuine screenshots from your own Postman and SQLite CLI run. Add screenshots using these names and keep the README image links:
 
 - `get-all-books.png`
+- <img width="1915" height="971" alt="image" src="https://github.com/user-attachments/assets/b8dc3a45-071c-4c61-85bc-59196dedc268" />
+
 - `get-book-by-id.png`
+- <img width="1919" height="964" alt="image" src="https://github.com/user-attachments/assets/e6f8ae08-0bdf-4504-9743-1e78914a7682" />
+
 - `post-book.png`
+- <img width="1919" height="967" alt="image" src="https://github.com/user-attachments/assets/be2f8186-7e66-4d24-b22f-95009fa9c80e" />
+
 - `put-book.png`
+  <img width="1914" height="967" alt="image" src="https://github.com/user-attachments/assets/62d7522d-81c1-44cc-a609-dab55ed201f8" />
+
 - `delete-book.png`
+- <img width="1903" height="973" alt="image" src="https://github.com/user-attachments/assets/50a9ca9f-e1df-4d83-bf08-5166e1934c73" />
+
 - `sqlite-database.png`
+<img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/3baed522-68b7-4a28-9e86-86fb78d85248" />
 
 Example Markdown:
 
