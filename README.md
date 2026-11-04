@@ -6,7 +6,7 @@
 **Course:** Backend Development Fundamentals · Year II Term II
 
 ## Live link
-Not deployed yet. This project is configured to run locally. Deploy it to Render, Railway, or the institute cloud IDE and replace this line with the public URL if deployment is required.
+https://bdm-lab2.onrender.com
 
 ## Objective
 Connect an Express server to an SQLite database and provide Create, Read, Update, and Delete (CRUD) operations through HTTP routes.
